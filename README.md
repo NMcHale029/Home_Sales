@@ -12,7 +12,7 @@ Home Sales data from <https://2u-data-curriculum-team.s3.amazonaws.com/dataviz-c
 
 The temporary table was cached and validated. The cached table was used to run the same query to test for runtime.
 
-The table was also partiioned by date_built, and a temporary table was created for the parquet data. The common query was run using this table and tested for runtime.
+The table was also partitioned by date_built, and a temporary table was created for the parquet data. The common query was run using this table and tested for runtime.
 
 Once all queries were run, the table was uncached and validated
 
